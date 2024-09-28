@@ -1,0 +1,65 @@
+body
+{
+    background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1
+{  
+    size-adjust: reletive;
+    text-align: center;
+    padding-inline: 100px;
+    color: rgba(25, 245, 245, 0.55);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+input
+{
+    background-color: rgba(0, 60, 255, 0.353);
+    border-radius: 25px;
+    border-color: rgba(0, 0, 255, 0.449);
+    box-shadow: 0 8px 16px rgba(0, 157, 255, 0.698);
+    color: rgb(255, 255, 255);
+}
+input:hover
+{
+    transition: all;
+    background-color: rgba(0, 0, 152, 0.6);
+}
+label
+{
+    color: white;
+    font-weight: bolder;
+}
+
+form
+{
+    text-align: justify;
+    box-shadow:  0 8px 16px rgba(0, 157, 255, 0.698);
+    width: 400px; 
+    margin: auto; 
+    border: 2px solid rgba(4, 38, 234, 0.661); 
+    padding: 20px; 
+    border-radius: 35px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+select
+{
+    background-color: rgba(0, 0, 255, 0.315);
+    color: white;
+    font-weight: bolder;
+}
+.circle {
+    position: absolute;
+    box-shadow: 100px 100px 100px 100px rgba(0, 8, 255, 0.15);
+    transition: all 0.1ms; 
+}
