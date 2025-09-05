@@ -1,0 +1,203 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url('Leaves.jpg');
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+nav {
+    padding-top: 10px;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+i
+{
+    color:lightgreen;
+}
+
+ul li a { 
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dashed black;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    color: rgb(59, 223, 127);
+}
+
+header {
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-color: grey;
+    background-size: cover;
+    height: 80vh;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px lightgray;
+    box-shadow: 10px 10px 10px 15px lightgray;
+    border-radius: 25px;
+}
+
+header button {
+    background-color: #039139;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px 5px rgba(114, 98, 98, 0.281);
+}
+
+header button:hover {
+    background-color: black;
+    transform: scale(110%);
+    box-shadow: 10px 10px 10px 10px lightgray;
+}
+
+h2 {
+    font-size: 13px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    margin: auto;
+}
+
+p {
+    font-size: 9px;
+    font-style: normal;
+    color: rgb(102, 91, 91);
+    margin: auto;
+    text-align: justify;
+}
+
+i {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding-right: 10px;
+    margin: auto;
+}
+
+ul {
+    background-color: rgb(135, 146, 146);
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 10px rgba(114, 98, 98, 0.281);
+}
+
+.panel {
+    background-color: white;
+    border: solid 1px gray;
+    color: gray;
+    padding: 25px;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    transition: all 1s;
+    border-radius: 35px;
+}
+
+.panel:hover {
+    box-shadow: 10px 10px 10px 15px lightgray;
+    background-color: black;
+    transform: scale(110%);
+}
+
+.panelIcon {
+    color: black;
+    font-size: 70px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+footer {
+    transition: all 0.5s;
+}
+
+footer h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 300;
+    font-style: oblique;
+    text-align: center;
+}
+section button
+{
+    background-color: #039139;
+    color: white;
+    border: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+section button:hover
+{
+    background-color: rgba(0, 0, 0, 0.438);
+    color: rgb(60, 255, 0);
+    border: black;
+    transform: scale(110%);
+    box-shadow: 10px 10px 10px 15px rgba(110, 247, 83, 0.575);
+}
+
+.modal {
+    display: You are being Hacked DUR DUR DUR;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

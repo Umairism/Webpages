@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Anime Wallpaper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="web_styles.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Plants</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contant</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Home Decor Products</h1>
+        <div id="Popup" class="Popup"></div>
+        <div class="Hack">
+        <button>Shop now</button>
+        
+        <script>
+            const modal = document.getElementById("Popup");
+            const btn = document.querySelector("header button");
+            const span = document.getElementsByClassName("close")[0];
+
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+        </script>
+    </header>
+
+    <section class="flexContainer" >
+
+        <div style="background-color: rgb(255, 255, 255);" class = "panel">
+            <div style="float: left;" class="panelIcon"> 
+                <i class="fa-solid fa-rocket"></i>
+            </div>
+            <div style="float: left; width: 50%;">
+                <h2>
+                    Free Shipping Worldwide
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div style="background-color: rgb(255, 255, 255);" class = "panel">
+            <div style="float: left;" class="panelIcon"> 
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div style="float: left; width: 50%;">
+                <h2>
+                    24/7 Dedicated Support Assistance
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div style="background-color: rgb(255, 255, 255);" class = "panel">
+            <div style="float: left;" class="panelIcon"> 
+                <i class="fa-solid fa-rotate-left"></i>
+            </div>
+            <div style="float: left; width: 50%;">
+                <h2>
+                    Money Back Guarantee
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+</section>
+    <footer>
+        <h3>
+            Our History
+        </h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam eveniet, facilis perspiciatis, voluptatibus delectus laudantium quod nesciunt molestias, minima repudiandae voluptatum.
+        </p>
+        <div style="text-align: center;"></div>
+        <p>
+            &copy; 2022 Home Decor Products. All rights reserved.
+        </p>
+        <div style="text-align: center;"></div>
+        <div class="socialMedia"></div>
+    </footer>
+    <section>
+        <button class="fa-solid fa-arrow-up" id="nav"></button>
+        <script>
+            const navButton = document.getElementById("nav");
+            navButton.addEventListener("click",() => {
+                window.scrollTo({top: 0, behavior: "smooth"});
+            });
+        </script>
+    </section>
+    
+</body>
+</html>
